@@ -1,0 +1,582 @@
+nohup: ignoring input
+Bottle v0.12.16 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8081/
+Hit Ctrl-C to quit.
+
+10.154.11.101 - - [03/Jun/2019 14:25:34] "GET / HTTP/1.1" 200 11
+10.154.11.101 - - [03/Jun/2019 14:49:35] "GET / HTTP/1.1" 200 11
+10.154.11.101 - - [03/Jun/2019 14:49:35] "GET / HTTP/1.1" 200 11
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+web/porter.py:29: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45896), raddr=('10.141.22.15', 8080)>
+  gj.join_files()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+web/porter.py:29: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45898), raddr=('10.141.22.15', 8080)>
+  gj.join_files()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45894), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [04/Jun/2019 05:02:43] "POST /geojoin HTTP/1.1" 200 7
+10.154.11.101 - - [04/Jun/2019 10:52:49] "GET / HTTP/1.1" 200 11
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:dedupe.api:((SimplePredicate: (sortedAcronym, FULLNAM), SimplePredicate: (wholeFieldPredicate, DOB)),)
+/root/miniconda3/lib/python3.7/site-packages/dedupe/blocking.py:34: DeprecationWarning: time.clock has been deprecated in Python 3.3 and will be removed from Python 3.8: use time.perf_counter or time.process_time instead
+  start_time = time.clock()
+/root/miniconda3/lib/python3.7/site-packages/dedupe/blocking.py:50: DeprecationWarning: time.clock has been deprecated in Python 3.3 and will be removed from Python 3.8: use time.perf_counter or time.process_time instead
+  'elapsed': time.clock() - start_time})
+INFO:dedupe.blocking:10000, 0.0800002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2600002 seconds
+Start Match Parent Method
+2019-06-04 11:16:47.081443
+Start Threshold
+2019-06-04 11:16:49.142865
+/root/miniconda3/lib/python3.7/site-packages/dedupe/core.py:267: DeprecationWarning: time.clock has been deprecated in Python 3.3 and will be removed from Python 3.8: use time.perf_counter or time.process_time instead
+  t0 = time.clock()
+/root/miniconda3/lib/python3.7/site-packages/dedupe/core.py:280: DeprecationWarning: time.clock has been deprecated in Python 3.3 and will be removed from Python 3.8: use time.perf_counter or time.process_time instead
+  time_delta = max(time.clock() - t0, 0.0001)
+/root/miniconda3/lib/python3.7/site-packages/dedupe/core.py:295: DeprecationWarning: time.clock has been deprecated in Python 3.3 and will be removed from Python 3.8: use time.perf_counter or time.process_time instead
+  t0 = time.clock()
+INFO:dedupe.api:Maximum expected recall and precision
+INFO:dedupe.api:recall: 0.966
+INFO:dedupe.api:precision: 0.999
+INFO:dedupe.api:With threshold: 0.990
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1800002 seconds
+INFO:dedupe.blocking:30000, 0.2600002 seconds
+threshold equals 0.99045694
+Start Dedupe Match
+2019-06-04 11:17:10.491359
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45924), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45928), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45926), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [04/Jun/2019 11:17:34] "POST /dedupe/match HTTP/1.1" 200 7
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:dedupe.api:((SimplePredicate: (sortedAcronym, FULLNAM), SimplePredicate: (wholeFieldPredicate, DOB)),)
+INFO:dedupe.blocking:10000, 0.0800002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2700002 seconds
+Start Writing Clusters
+2019-06-04 11:17:32.179890
+Start Match Parent Method
+2019-06-04 11:17:34.366286
+Start Threshold
+2019-06-04 11:17:36.255362
+INFO:dedupe.api:Maximum expected recall and precision
+INFO:dedupe.api:recall: 0.966
+INFO:dedupe.api:precision: 0.999
+INFO:dedupe.api:With threshold: 0.990
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2600002 seconds
+threshold equals 0.99045694
+Start Dedupe Match
+2019-06-04 11:17:56.941213
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45930), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39690), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45932), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [04/Jun/2019 11:18:20] "POST /dedupe/match HTTP/1.1" 200 7
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:dedupe.api:((SimplePredicate: (sortedAcronym, FULLNAM), SimplePredicate: (wholeFieldPredicate, DOB)),)
+INFO:dedupe.blocking:10000, 0.0800002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2300002 seconds
+Start Writing Clusters
+2019-06-04 11:18:18.631059
+Start Match Parent Method
+2019-06-04 11:18:20.738991
+Start Threshold
+2019-06-04 11:18:22.502457
+INFO:dedupe.api:Maximum expected recall and precision
+INFO:dedupe.api:recall: 0.966
+INFO:dedupe.api:precision: 0.999
+INFO:dedupe.api:With threshold: 0.990
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2600002 seconds
+threshold equals 0.99045694
+Start Dedupe Match
+2019-06-04 11:18:43.095816
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39692), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39696), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39694), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [04/Jun/2019 11:19:07] "POST /dedupe/match HTTP/1.1" 200 7
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:dedupe.api:((SimplePredicate: (sortedAcronym, FULLNAM), SimplePredicate: (wholeFieldPredicate, DOB)),)
+INFO:dedupe.blocking:10000, 0.0800002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2300002 seconds
+Start Writing Clusters
+2019-06-04 11:19:05.399186
+Start Match Parent Method
+2019-06-04 11:19:07.369136
+Start Threshold
+2019-06-04 11:19:09.057943
+INFO:dedupe.api:Maximum expected recall and precision
+INFO:dedupe.api:recall: 0.966
+INFO:dedupe.api:precision: 0.999
+INFO:dedupe.api:With threshold: 0.990
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2200002 seconds
+threshold equals 0.99045694
+Start Dedupe Match
+2019-06-04 11:19:29.713563
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39698), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39702), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39700), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [04/Jun/2019 11:19:54] "POST /dedupe/match HTTP/1.1" 200 7
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:dedupe.api:((SimplePredicate: (sortedAcronym, FULLNAM), SimplePredicate: (wholeFieldPredicate, DOB)),)
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2300002 seconds
+Start Writing Clusters
+2019-06-04 11:19:51.980773
+Start Match Parent Method
+2019-06-04 11:19:54.182115
+Start Threshold
+2019-06-04 11:19:55.997542
+INFO:dedupe.api:Maximum expected recall and precision
+INFO:dedupe.api:recall: 0.966
+INFO:dedupe.api:precision: 0.999
+INFO:dedupe.api:With threshold: 0.990
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2300002 seconds
+threshold equals 0.99045694
+Start Dedupe Match
+2019-06-04 11:20:16.630118
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39704), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39708), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39706), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [04/Jun/2019 11:20:40] "POST /dedupe/match HTTP/1.1" 200 7
+10.154.11.101 - - [04/Jun/2019 11:20:40] "GET / HTTP/1.1" 200 11
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:dedupe.api:((SimplePredicate: (sortedAcronym, FULLNAM), SimplePredicate: (wholeFieldPredicate, DOB)),)
+INFO:dedupe.blocking:10000, 0.0800002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2300002 seconds
+Start Writing Clusters
+2019-06-04 11:20:38.265683
+Start Match Parent Method
+2019-06-04 11:28:01.856890
+Start Threshold
+2019-06-04 11:28:03.909497
+INFO:dedupe.api:Maximum expected recall and precision
+INFO:dedupe.api:recall: 0.966
+INFO:dedupe.api:precision: 0.999
+INFO:dedupe.api:With threshold: 0.990
+INFO:dedupe.blocking:10000, 0.0800002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2300002 seconds
+threshold equals 0.99045694
+Start Dedupe Match
+2019-06-04 11:28:25.138335
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45954), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39714), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45956), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [04/Jun/2019 11:28:48] "POST /dedupe/match HTTP/1.1" 200 7
+10.154.11.101 - - [04/Jun/2019 11:28:48] "GET / HTTP/1.1" 200 11
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:dedupe.api:((SimplePredicate: (sortedAcronym, FULLNAM), SimplePredicate: (wholeFieldPredicate, DOB)),)
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2200002 seconds
+Start Writing Clusters
+2019-06-04 11:28:46.791490
+Start Match Parent Method
+2019-06-04 13:01:47.117945
+Start Threshold
+2019-06-04 13:01:49.128432
+INFO:dedupe.api:Maximum expected recall and precision
+INFO:dedupe.api:recall: 0.966
+INFO:dedupe.api:precision: 0.999
+INFO:dedupe.api:With threshold: 0.990
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2300002 seconds
+threshold equals 0.99045694
+Start Dedupe Match
+2019-06-04 13:02:09.692046
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39726), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45974), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39728), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [04/Jun/2019 13:02:33] "POST /dedupe/match HTTP/1.1" 200 7
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:dedupe.api:((SimplePredicate: (sortedAcronym, FULLNAM), SimplePredicate: (wholeFieldPredicate, DOB)),)
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2200002 seconds
+Start Writing Clusters
+2019-06-04 13:02:31.698163
+Start Match Parent Method
+2019-06-04 13:02:33.481769
+Start Threshold
+2019-06-04 13:02:35.696101
+INFO:dedupe.api:Maximum expected recall and precision
+INFO:dedupe.api:recall: 0.966
+INFO:dedupe.api:precision: 0.999
+INFO:dedupe.api:With threshold: 0.990
+INFO:dedupe.blocking:10000, 0.0800002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2200002 seconds
+threshold equals 0.99045694
+Start Dedupe Match
+2019-06-04 13:02:56.867786
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45976), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45980), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45978), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [04/Jun/2019 13:03:20] "POST /dedupe/match HTTP/1.1" 200 7
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:dedupe.api:((SimplePredicate: (sortedAcronym, FULLNAM), SimplePredicate: (wholeFieldPredicate, DOB)),)
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2200002 seconds
+Start Writing Clusters
+2019-06-04 13:03:19.131156
+Start Match Parent Method
+2019-06-04 13:03:20.872614
+Start Threshold
+2019-06-04 13:03:22.991445
+INFO:dedupe.api:Maximum expected recall and precision
+INFO:dedupe.api:recall: 0.966
+INFO:dedupe.api:precision: 0.999
+INFO:dedupe.api:With threshold: 0.990
+INFO:dedupe.blocking:10000, 0.0800002 seconds
+INFO:dedupe.blocking:20000, 0.1600002 seconds
+INFO:dedupe.blocking:30000, 0.2300002 seconds
+threshold equals 0.99045694
+Start Dedupe Match
+2019-06-04 13:03:43.601109
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45982), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39742), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45984), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [04/Jun/2019 13:04:07] "POST /dedupe/match HTTP/1.1" 200 7
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:dedupe.api:((SimplePredicate: (sortedAcronym, FULLNAM), SimplePredicate: (wholeFieldPredicate, DOB)),)
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2300002 seconds
+Start Writing Clusters
+2019-06-04 13:04:05.859103
+Start Match Parent Method
+2019-06-04 13:04:07.767884
+Start Threshold
+2019-06-04 13:04:09.691267
+INFO:dedupe.api:Maximum expected recall and precision
+INFO:dedupe.api:recall: 0.966
+INFO:dedupe.api:precision: 0.999
+INFO:dedupe.api:With threshold: 0.990
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2300002 seconds
+threshold equals 0.99045694
+Start Dedupe Match
+2019-06-04 13:04:30.695137
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39744), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45992), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39746), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [04/Jun/2019 13:04:54] "POST /dedupe/match HTTP/1.1" 200 7
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:dedupe.api:((SimplePredicate: (sortedAcronym, FULLNAM), SimplePredicate: (wholeFieldPredicate, DOB)),)
+INFO:dedupe.blocking:10000, 0.1200002 seconds
+INFO:dedupe.blocking:20000, 0.2000002 seconds
+INFO:dedupe.blocking:30000, 0.2700002 seconds
+Start Writing Clusters
+2019-06-04 13:04:52.647167
+Start Match Parent Method
+2019-06-04 13:04:55.000170
+Start Threshold
+2019-06-04 13:04:57.227509
+INFO:dedupe.api:Maximum expected recall and precision
+INFO:dedupe.api:recall: 0.966
+INFO:dedupe.api:precision: 0.999
+INFO:dedupe.api:With threshold: 0.990
+INFO:dedupe.blocking:10000, 0.1000002 seconds
+INFO:dedupe.blocking:20000, 0.1800002 seconds
+INFO:dedupe.blocking:30000, 0.2600002 seconds
+threshold equals 0.99045694
+Start Dedupe Match
+2019-06-04 13:05:17.878295
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45994), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45998), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 45996), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [04/Jun/2019 13:05:41] "POST /dedupe/match HTTP/1.1" 200 7
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:dedupe.api:((SimplePredicate: (sortedAcronym, FULLNAM), SimplePredicate: (wholeFieldPredicate, DOB)),)
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1900002 seconds
+INFO:dedupe.blocking:30000, 0.2700002 seconds
+Start Writing Clusters
+2019-06-04 13:05:39.530080
+Start Match Parent Method
+2019-06-04 13:05:41.674907
+Start Threshold
+2019-06-04 13:05:43.642539
+INFO:dedupe.api:Maximum expected recall and precision
+INFO:dedupe.api:recall: 0.966
+INFO:dedupe.api:precision: 0.999
+INFO:dedupe.api:With threshold: 0.990
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1900002 seconds
+INFO:dedupe.blocking:30000, 0.2600002 seconds
+threshold equals 0.99045694
+Start Dedupe Match
+2019-06-04 13:06:04.606325
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 46000), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39760), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 46002), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [04/Jun/2019 13:06:28] "POST /dedupe/match HTTP/1.1" 200 7
+10.155.189.74 - - [05/Jun/2019 00:57:09] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:09] "PROPFIND / HTTP/1.1" 405 737
+10.155.189.74 - - [05/Jun/2019 00:57:11] "GET /console/login/LoginForm.jsp HTTP/1.1" 404 778
+10.155.189.74 - - [05/Jun/2019 00:57:11] "GET /Rapid7/JBoss/version-check-oMXcxy.html HTTP/1.1" 404 800
+10.155.189.74 - - [05/Jun/2019 00:57:11] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:11] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:11] "GET %. HTTP/1.1" 404 729
+10.155.189.74 - - [05/Jun/2019 00:57:11] "GET %server.policy HTTP/1.1" 404 753
+10.155.189.74 - - [05/Jun/2019 00:57:11] "GET %login-config.xml HTTP/1.1" 404 759
+10.155.189.74 - - [05/Jun/2019 00:57:11] "GET %org/jboss/version.properties HTTP/1.1" 404 783
+10.155.189.74 - - [05/Jun/2019 00:57:11] "POST /.jsp HTTP/1.1" 404 732
+10.155.189.74 - - [05/Jun/2019 00:57:11] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:11] "GET /reviews HTTP/1.1" 404 733
+10.155.189.74 - - [05/Jun/2019 00:57:11] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:11] "GET /login HTTP/1.1" 404 729
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /login HTTP/1.1" 404 729
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /login.action HTTP/1.1" 404 743
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /login HTTP/1.1" 404 729
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /login HTTP/1.1" 404 729
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /owa/auth/logon.aspx HTTP/1.1" 404 757
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /owa/auth/logon.aspx HTTP/1.1" 404 757
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /owa/auth/logon.aspx HTTP/1.1" 404 757
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /console/App.html HTTP/1.1" 404 751
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /php/login.php HTTP/1.1" 404 745
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /CHANGELOG.txt HTTP/1.1" 404 745
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /wordpress/readme.html HTTP/1.1" 404 761
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /wordpress HTTP/1.1" 404 737
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /wordpress/wp-login.php HTTP/1.1" 404 763
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /index.php/login HTTP/1.1" 404 749
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /index.php?title=Main_Page HTTP/1.1" 404 753
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /index.php HTTP/1.1" 404 737
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /version HTTP/1.1" 404 733
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /version/openshift HTTP/1.1" 404 753
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /version HTTP/1.1" 404 733
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /jira/secure/Dashboard.jspa HTTP/1.1" 404 776
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /secure/Dashboard.jspa HTTP/1.1" 404 766
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /login.jsp HTTP/1.1" 404 742
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /jbossws/ HTTP/1.1" 404 740
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /invoker/ HTTP/1.1" 404 740
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /jbossmq-httpil/ HTTP/1.1" 404 754
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /status/ HTTP/1.1" 404 738
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /spiffymcgee.cfm HTTP/1.1" 404 754
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /spiffymcgee.nsf HTTP/1.1" 404 754
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /administrator/manifests/files/joomla.xml HTTP/1.1" 404 804
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /administrator/language/en-GB/en-GB.xml HTTP/1.1" 404 800
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /language/en-GB/en-GB.xml HTTP/1.1" 404 772
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET /servlet/ HTTP/1.1" 404 740
+10.155.189.74 - - [05/Jun/2019 00:57:12] "GET / HTTP/1.1" 200 11
+10.155.189.74 - - [05/Jun/2019 00:57:13] "GET /xmldata?item=All HTTP/1.1" 404 747
+10.155.189.74 - - [05/Jun/2019 00:57:13] "GET /spiffymcgee.jsp HTTP/1.1" 404 754
+10.155.189.74 - - [05/Jun/2019 00:57:13] "GET /phpmyadmin/ HTTP/1.1" 404 746
+10.155.189.74 - - [05/Jun/2019 00:57:13] "GET /console/faces/com_sun_web_ui/jsp/version/version_30.jsp HTTP/1.1" 404 834
+10.155.189.74 - - [05/Jun/2019 00:57:13] "GET /console/faces/com_sun_web_ui/jsp/version/version_4.jsp HTTP/1.1" 404 832
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+web/porter.py:29: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39824), raddr=('10.155.126.15', 8080)>
+  gj.join_files()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+web/porter.py:29: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39826), raddr=('10.155.126.15', 8080)>
+  gj.join_files()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39822), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [05/Jun/2019 05:03:38] "POST /geojoin HTTP/1.1" 200 7
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+web/porter.py:29: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39946), raddr=('10.155.126.15', 8080)>
+  gj.join_files()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+web/porter.py:29: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39948), raddr=('10.155.126.15', 8080)>
+  gj.join_files()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 39944), raddr=('10.155.126.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [06/Jun/2019 05:03:38] "POST /geojoin HTTP/1.1" 200 7
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:dedupe.api:((SimplePredicate: (sortedAcronym, FULLNAM), SimplePredicate: (wholeFieldPredicate, DOB)),)
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2200002 seconds
+Start Writing Clusters
+2019-06-04 13:06:26.708279
+Start Match Parent Method
+2019-06-06 11:10:44.253966
+Start Threshold
+2019-06-06 11:10:46.182787
+INFO:dedupe.api:Maximum expected recall and precision
+INFO:dedupe.api:recall: 0.966
+INFO:dedupe.api:precision: 0.999
+INFO:dedupe.api:With threshold: 0.990
+INFO:dedupe.blocking:10000, 0.0700002 seconds
+INFO:dedupe.blocking:20000, 0.1500002 seconds
+INFO:dedupe.blocking:30000, 0.2200002 seconds
+threshold equals 0.99045694
+Start Dedupe Match
+2019-06-06 11:11:06.815344
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 46208), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 46212), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 46210), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [06/Jun/2019 11:11:30] "POST /dedupe/match HTTP/1.1" 200 7
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+web/porter.py:29: ResourceWarning: unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 46292), raddr=('10.141.22.15', 8080)>
+  gj.join_files()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+web/porter.py:29: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 46294), raddr=('10.141.22.15', 8080)>
+  gj.join_files()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:1740: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 46290), raddr=('10.141.22.15', 8080)>
+  rv = callback(*a, **ka)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [07/Jun/2019 05:02:04] "POST /geojoin HTTP/1.1" 200 7
+10.154.11.101 - - [07/Jun/2019 09:53:40] "GET / HTTP/1.1" 200 11
+10.154.11.101 - - [07/Jun/2019 09:53:40] "GET /favicon.ico HTTP/1.1" 404 746
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+/code/mocj_porter/lib/sav_to_csv.py:36: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 40074), raddr=('10.155.126.15', 8080)>
+  self.write_to_disk()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+/code/mocj_porter/lib/sav_to_csv.py:38: ResourceWarning: unclosed <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 40076), raddr=('10.155.126.15', 8080)>
+  self.post_csvs()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+web/porter.py:111: ResourceWarning: unclosed <ssl.SSLSocket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('10.138.101.57', 40072), raddr=('10.155.126.15', 8080)>
+  stc.FileConverter(src_config).convert_files()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+10.155.205.140 - - [07/Jun/2019 10:39:11] "POST /sav_to_csv HTTP/1.1" 200 7
+/root/miniconda3/lib/python3.7/site-packages/bottle.py:3125: ResourceWarning: unclosed <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 8081)>
+  server.run(app)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+Start Writing Clusters
+2019-06-06 11:11:28.427212
