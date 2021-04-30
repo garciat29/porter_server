@@ -48,7 +48,7 @@ pytz==2019.1
 PyYAML==3.13
 requests==2.21.0
 rlr==2.4.5
-rsa==3.4.2
+rsa==4.7
 Rtree==0.8.3
 ruamel-yaml==0.15.46
 s3transfer==0.2.0
