@@ -32,7 +32,7 @@ idna==2.8
 jmespath==0.9.4
 Levenshtein-search==1.4.4
 munch==2.3.2
-numpy==1.16.3
+numpy==1.22.0
 pandas==0.24.2
 persistent==4.4.3
 pyasn1==0.4.5
