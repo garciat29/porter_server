@@ -7,7 +7,7 @@ botocore==1.12.139
 bottle==0.12.16
 BTrees==4.5.1
 categorical-distance==1.9
-certifi==2019.3.9
+certifi==2022.12.7
 cffi==1.12.2
 chardet==3.0.4
 Click==7.0
